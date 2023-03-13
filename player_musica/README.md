@@ -13,7 +13,7 @@ Projeto disponibilizado pela equipe da Rocketseat com intuito de promover layout
 <br>
 
 <p align="center">
-  <img alt="Layout" src="./assets/lt_sofa.png" width="100%">
+  <img alt="Layout" src="./assets/layout.png" width="100%">
 </p>
 
 ## 🎓 Tecnologias
@@ -21,15 +21,15 @@ Projeto disponibilizado pela equipe da Rocketseat com intuito de promover layout
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-<!-- - JavaScript??  --> 
+- JavaScript 
 - Git e Github
 - Figma
 
 ## 📔 Projeto
 
-Funciona melhor para os estudantes de objetos em 3D porém com o gif disponibilizado também era uma forma de conclusão. Se baseia em uma página que vende um certo produto mostrando ele em 360°.
+Nesse projeto criamos um layout para tocar uma música.
 
-- [Visite o projeto online](https://isaluh.github.io/music-player)
+- [Visite o projeto online](https://isaluh.github.io/player_musica)
 
 ## 🏯 Layout
 
