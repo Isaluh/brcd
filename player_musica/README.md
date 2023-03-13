@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Nesse projeto criamos um layout para tocar uma música.
 
-- [Visite o projeto online]([https://isaluh.github.io/brcd/player_musica/])
+- [Visite o projeto online](https://isaluh.github.io/brcd/player_musica/)
 
 ## 🏯 Layout
 
