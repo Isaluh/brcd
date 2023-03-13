@@ -20,7 +20,7 @@ Projeto disponibilizado pela equipe da Rocketseat com intuito de promover layout
         <td><img src="https://cdn.discordapp.com/emojis/1008814022923145368.webp?size=96&quality=lossless" alt="01" width='25' height='25'></td>
         <td>Music Player</td>
         <td>04/01/23</td>
-        <td><a href="https://github.com/Isaluh/brcd/tree/main/player_musica">🔗</a></td>
+        <td><a href="player_musica">🔗</a></td>
      </tr>
    </tbody>
 </table>
