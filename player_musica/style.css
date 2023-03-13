@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #0F0D13;
+    --bg-cont-color: #2A2141;
+    --h4-font-color: #E1E1E6;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 86.5px 0 86.5px 0;
+}
+
+.osDois{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container{
+    background-color: var(--bg-cont-color);
+    border-radius: 10px;
+    color: white;
+}
+.container#um {
+    width: 266px;
+    height: 522px;
+    padding: 38px;
+}
+
+#coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#interagir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mostrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tempo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#inicio{
+    display: flex;
+    flex-direction: row
+}
+
+.container#dois, .container#tres{
+    padding: 28px;
+}
+
+#colunadois{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#autor{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 29px;
+}
+
+#interagirdois{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+#linhabardois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 38px;
+}
+
+#linhacimadois{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: absolute;
+    background-color: #c1bdcc;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#linhadois{
+    width: 300px;
+    height: 10px;
+    background-color: #605870;
+    border-radius: 5px;
+}
+
+#linhabar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#linhacima{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: absolute;
+    background-color: #c1bdcc;
+    width: 0px;
+    height: 7px;
+    border-radius: 5px;
+}
+
+#linha{
+    width: 190px;
+    height: 7px;
+    background-color: #605870;
+    border-radius: 5px;
+}
+
+/* #linhadois {
+    width: 191px;
+    height: 7px;
+    background-color: #605870;
+    range: #c1bdcc;
+} */
+
+img#primeira{
+    width: 189px;
+    height: 189px;
+}
+img#segunda{
+    width: 84px;
+    height: 84px;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h4{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--h4-font-color);
+}
+
+#interagir img, #interagirdois img{
+    cursor: pointer;
+}
+/* 
+.hidden{
+    position: absolute;
+    visibility: hidden;
+} */
+
+@media (max-width: 687px){
+    .osDois{
+        visibility: hidden;
+        position: absolute
+    }
+    .body{
+        height: 100%;
+        width: 100%;
+    }
+    .tudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/play.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Player de Música</title>
+</head>
+<body>
+    <audio src="./assets/kamai.mp3"></audio>
+   <div class="tudo">
+    <div class="container" id="um">
+        <div id="coluna">
+            <img src="./assets/logokamai.jpg" alt="Logo Kamai" id="primeira">
+            <div id="titulos">
+                <h1>Chamas da Vida</h1>
+                <h4>Kamaitachi</h4>
+            </div>
+            <div id="interagir">
+                <img src="./assets/voltar.svg" alt="Back">
+                <img src="./assets/play.svg" alt="Play" class="play">
+                <!-- <img src="./assets/pause.svg" alt="Pause" class="pause hidden"> -->
+                <img src="./assets/seguir.svg" alt="Jump">
+            </div>
+            <div id="mostrar">
+                <!-- <img src="./assets/linha.svg" alt="Timer" id="linha"> -->
+                <div id="linhabar">
+                    <div id="linha"></div>
+                    <div id="linhacima" style="width: 0px;"></div>
+                </div>
+                <div id="tempo">
+                    <div id="inicio">
+                        <h4 class="minutos">00</h4>
+                        <h4>:</h4>
+                        <h4 class="segundos">00</h4>
+                    </div>
+                    <div>
+                        <h4>03:27</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="osDois">
+        <div class="container" id="dois">
+            <div id="colunadois">
+                <div id="autor">
+                    <img src="./assets/logokamai.jpg" alt="Logo Kamai" id="segunda">
+                    <div id="titulos">
+                        <h1>Chamas da Vida</h1>
+                        <h4>Kamaitachi</h4>
+                    </div>
+                </div>
+                <div id="interagirdois">
+                    <img src="./assets/voltar.svg" alt="Back">
+                    <img src="./assets/play.svg" alt="Play" class="play">
+                    <!-- <img src="./assets/pause.svg" alt="Pause" class="pause hidden"> -->
+                    <img src="./assets/seguir.svg" alt="Jump">
+                </div>
+                <div>
+                    <!-- <img src="./assets/linha.svg" alt="Timer" id="linhadois"> -->
+                    <div id="linhabardois">
+                        <div id="linhadois"></div>
+                        <div id="linhacimadois" style="width: 0px;"></div>
+                    </div>
+                    <!-- <input type="range" id="linhadois" value="0"> -->
+                    <div id="tempo">
+                        <div id="inicio">
+                            <h4 class="minutos">00</h4>
+                            <h4>:</h4>
+                            <h4 class="segundos">00</h4>
+                        </div>
+                        <div>
+                            <h4>03:27</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="tres">
+           <div id="colunadois">
+            <div id="autor">
+                <img src="./assets/logokamai.jpg" alt="Logo Kamai" id="segunda">
+                <div id="titulos">
+                    <h1>Chamas da Vida</h1>
+                    <h4>Kamaitachi</h4>
+                </div>
+            </div>
+            <div id="interagirdois">
+                <img src="./assets/voltar.svg" alt="Back">
+                <img src="./assets/play.svg" alt="Play" class="play">
+                <!-- <img src="./assets/pause.svg" alt="Pause" class="pause hidden"> -->
+                <img src="./assets/seguir.svg" alt="Jump">
+            </div>
+           </div>
+        </div>
+    </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
+
