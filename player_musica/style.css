@@ -149,13 +149,6 @@ body{
     border-radius: 5px;
 }
 
-/* #linhadois {
-    width: 191px;
-    height: 7px;
-    background-color: #605870;
-    range: #c1bdcc;
-} */
-
 img#primeira{
     width: 189px;
     height: 189px;
@@ -181,11 +174,6 @@ h4{
 #interagir img, #interagirdois img{
     cursor: pointer;
 }
-/* 
-.hidden{
-    position: absolute;
-    visibility: hidden;
-} */
 
 @media (max-width: 687px){
     .osDois{
